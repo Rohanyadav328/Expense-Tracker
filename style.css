@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#15f4ee;
+   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+.container{
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    text-align: center;
+    /* border: 2px solid rgb(19, 134, 211); */
+    border: 2px solid rgba(0, 3, 5, 0.5);
+
+}
+
+.container:hover{
+    box-shadow: 0 0 20px  rgba(0,0,0,0.9);
+    
+}
+
+input{
+    width: 100%;
+    padding: 30px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#expenseList{
+    padding: 0;
+}
+
+#expenseList li{
+display: flex;
+justify-content: space-between;
+align-items: center;
+list-style: none;
+padding: 10px;
+margin-top: 10px;
+background: yellowgreen;
+border-radius: 5px;
+}
+
+#expenseList li button{
+    padding:0;
+    width: 35px ;
+    border-radius: 50%;
+    height: 35px;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+}
